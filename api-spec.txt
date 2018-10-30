@@ -1,0 +1,19 @@
+The action replay API will act as middleware between
+the user program and the controller inputs. The user
+will be able to switch between two modes:
+- Controller Passthrough
+    This mode will pass all input from the controller
+    directly into the visible API components.
+- Replay Mode
+    This mode will take an input file containing 
+    controller inputs and replay them back to the API
+    frontend.
+
+All methods and fields for the built-in controller 
+API will be available on the Action-Replay frontend.
+This will make the process of migrating to A-R much
+easier.
+
+TODO: Describe the controller input file format
+TODO: Describe how the user may switch between modes
+TODO: Describe how a user could record inputs
