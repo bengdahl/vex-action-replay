@@ -16,6 +16,7 @@ easier.
 
 The inputs file is a CSV with the following fields:
     A1, A2, A3, A4, A, B, X, Y, U, D, L, R, L1, L2, R1, R2
+Each row of inputs is recorded 30ms apart
 
 TODO: Describe how the user may switch between modes
 TODO: Describe how a user could record inputs
